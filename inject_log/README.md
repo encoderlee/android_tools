@@ -7,7 +7,7 @@ then logcat will show us the invoked process of each function
 ### step
 1. use apktool unpack apk
 2. run inject_log.py -c [apktool project root directory]
-3. run inject_log.pt -r [the directory of interested java package]
+3. run inject_log.py -r [the directory of interested java package]
 4. apktool rebuild apk
 5. run apk, watch logcat with tag 'InjectLog'
 
