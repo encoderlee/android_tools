@@ -1,9 +1,9 @@
 ### what
-reverse analysis an android app
-use apktool unpack apk
-use this script inject log to smali file automatically
-use apktool rebuild apk
-then logcat will show us the invoked process of each function
+reverse analysis an android app  
+use apktool unpack apk  
+use this script inject log to smali file automatically  
+use apktool rebuild apk  
+then logcat will show us the invoked process of each function  
 ### step
 1. use apktool unpack apk
 2. run inject_log.py -c [apktool project root directory]
