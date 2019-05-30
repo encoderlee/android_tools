@@ -12,25 +12,25 @@ then logcat will show us the invoked process of each function
 5. run apk, watch logcat with tag 'InjectLog'
 
 ### example
-inject_log.py -c ./
+inject_log.py -c ./  
 create InjectLog.smali, if current working directory is apktool project root directory
 
-inject_log.py -c c:\project
+inject_log.py -c c:\project  
 create InjectLog.smali, if c:\project is apktool project root directory
 
-inject_log.py ./
+inject_log.py ./  
 inject log into all smali file under current working directory
 
-inject_log.py -r ./
+inject_log.py -r ./  
 inject log into all smali file under current working directory and subdirectory recursively
 
-inject_log.py c:\project\alipay.smali
+inject_log.py c:\project\alipay.smali  
 inject log into alipay.smali
 
-inject_log.py c:\project
+inject_log.py c:\project  
 inject log into all smali file under c:\project
 
-inject_log.py -r c:\project
+inject_log.py -r c:\project  
 inject log into all smali file under c:\project and subdirectory recursively
 
 ### detail
