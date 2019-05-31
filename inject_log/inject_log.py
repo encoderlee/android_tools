@@ -32,6 +32,11 @@ def usage():
 
 # 注入代码到一个行数块中
 def inject_code_to_method_section(method_section):
+
+    # 对象的构造函数，是否插入日志？默认插入，如果不插，取消注释
+    #if method_section[0].find("constructor <init>") != -1:
+    #    return method_section
+
     # 静态构造函数，无需处理
     if method_section[0].find("static constructor") != -1:
         return method_section
